@@ -1,0 +1,18 @@
+-- Details
+
+- L : stands for Lines.
+- W : stands for Words.
+- V : stands for Vocabulary, or unique words.
+- C : stands for Characters.
+
+-- Quick Inserts
+
+You can quickly insert or transform text by activating the Insert Mode with <c-i>, followed by one of these shortcuts:
+
+- <c-d> : Date
+- <c-t> : Time
+- <c-p> : Path
+- <c-h> : Header
+- <c-H> : Sub-Header
+- <c-/> : Comment
+- <c-l> : Line
