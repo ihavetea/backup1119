@@ -145,7 +145,7 @@ alias open="xdg-open .;"
 alias weather="curl wttr.in"
 alias f="fzf -e"
 
-alias backup="cp ~/.zshrc ~/backup; cp ~/.vimrc ~/backup; cp ~/notes/* ~/backup; cp ~/.xinitrc ~/backup;cd ~/backup; autopush; cds; autopush; cd ~/suckless; autopush; cd;"
+alias backup="cp /etc/X11/xorg.conf.d/40-touchpad.conf ~/backup; cp ~/.zshrc ~/backup; cp ~/.vimrc ~/backup; cp ~/notes/* ~/backup; cp ~/.xinitrc ~/backup;cd ~/backup; autopush; cds; autopush; cd ~/suckless; autopush; cd;"
 
 alias piano="cd /home/wsz/Applications/Pianoteq\ 6/amd64/;./Pianoteq\ 6;cd -"
 alias orca="cd /home/wsz/Applications/Orca/desktop/;npm start;cd -"

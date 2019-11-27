@@ -5,14 +5,16 @@
 :set cindent
 :set linebreak
 
-":colo gruvbox
-
-"execute pathogen#infect()
+execute pathogen#infect()
 "autocmd vimenter * NERDTree   
 "autolaunch nerdree
 "map <C-t> :NERDTreeToggle<CR>
 
+colorscheme gruvbox
+
+let g:gruvbox_contrast_dark='hard'
 let g:airline_theme='gruvbox'
+set background=dark
 
 set incsearch
 set hlsearch
