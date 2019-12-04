@@ -1,0 +1,30 @@
+
+sudo pacman -S
+
+iplink set wlan0 down
+sudo systemctl stop NetworkManager.service
+sudo systemctl disable NetworkManager.service
+
+sudo pacman -S code
+sudo pacman -S chromium
+sudo pacman -S alsa-utils
+sudo pacman -S fzf
+sudo pacman -S ranger
+sudo pacman -S cmus
+sudo pacman -S inkscape
+sudo pacman -S krita
+sudo pacman -S gimp
+sudo pacman -S mpsyt
+sudo pacman -S youtube-dl
+sudo pacman -S htop
+sudo pacman -S pydf
+
+pulseaudio-start
+
+cd
+mkdir suckless
+cd suckless
+git clone git@github.com:LukeSmithxyz/st.git
+git clone git@github.com:LukeSmithxyz/dwm.git
+git clone https://git.suckless.org/surf
+git clone git@github.com:KorySchneider/tab.git
