@@ -19,4 +19,5 @@ fi
 xbacklight -set 80 &
 xgamma -gamma 0.8 &
 redshift -P -O 3000 &
+dwmblocks &
 exec dwm
