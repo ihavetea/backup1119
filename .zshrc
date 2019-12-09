@@ -155,5 +155,5 @@ alias wifi="sudo wifi-menu"
 alias veille="systemctl suspend"
 alias knots="vim ~/simplon/.knots"
 alias cds="cd ~/simplon"
-
+alias cdd="cd ~/Downloads"
 
